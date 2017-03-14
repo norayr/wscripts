@@ -45,7 +45,7 @@ do
 		    echo $line  >> $os/el5.txt
 		  elif [ "$osv" -eq "6" ]
 		  then
-		    echo $line  >> $osl/el6.txt
+		    echo $line  >> $os/el6.txt
 		  elif [ "$osv" -eq "7" ]
 		  then
 		    echo $line  >> $os/el7.txt
