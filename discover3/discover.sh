@@ -30,7 +30,7 @@ do
        if [ "$tmpline" != "" ]
        then	       
                printf "$i ${GREEN}rshable${NC}\n"
-	       dstr=`echo $tmpline | awk '{print $1}`
+	       dstr=`echo $tmpline | awk '{print $1}'`
 	       osv0=`echo $tmpline | awk '{print $7}'`
 	       osv="${osv0%.*}"
 	       echo "distr:			$dstr"
