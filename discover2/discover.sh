@@ -45,7 +45,7 @@ do
          echo $line  >> $os/el5.txt
        elif [ "$osv" -eq "6" ]
        then
-         echo $line  >> $oslel6.txt
+         echo $line  >> $os/el6.txt
          list6="$list6 $i"
        elif [ "$osv" -eq "7" ]
        then
