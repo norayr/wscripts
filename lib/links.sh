@@ -2,8 +2,7 @@
 source ./out.sh
 #########
 
-# accepts src and dst like ln does
-# expects:
+# expects full paths:
 # first param is where to link
 # second param is a broken link to fix   
 
