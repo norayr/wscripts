@@ -22,7 +22,15 @@ paramslist=""
 printf " ${GREEN}${paramslist}${NC}"
 }
 
-
+function OutLine
+{
+paramslist=""
+  for i in $@
+  do
+     paramslist="${paramslist} ${i}"
+  done
+printf "$paramslist"
+}
 function OutLn
 {
  printf "\n"
@@ -30,6 +38,7 @@ function OutLn
 }
 
 
-OutRedLine "aaa aaa aaa"
-OutGreenLine "aaa aaa aaa"
-OutLn
+#OutRedLine "aaa aaa aaa"
+#OutGreenLine "aaa aaa aaa"
+#OutLn
+
