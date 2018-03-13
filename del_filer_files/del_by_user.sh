@@ -1,16 +1,17 @@
 #!/bin/bash 
 #arguments
-#if [ $# -eq 0 ]; then
-#    echo "No arguments provided"
-#    exit 1
-#fi
+if [ $# -eq 0 ]; then
+    echo "No arguments provided"
+    echo "usage: scriptname username space"
+    exit 1
+fi
 
 user=$1
 space=$2
 ###test
 #set -x
-user=anizak
-space=am04dwt3p060
+#user=anizak
+#space=am04dwt3p060
 
 #constants
 location="/remote/am04fsmon/AM04/SG/data"
